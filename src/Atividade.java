@@ -5,6 +5,10 @@ public class Atividade {
     private String descricao;
     private Map<Aluno, Boolean> listagem;
 
+    public Atividade() {
+
+    }
+
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }

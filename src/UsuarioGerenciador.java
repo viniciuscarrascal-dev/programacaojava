@@ -4,6 +4,10 @@ public abstract class UsuarioGerenciador {
     private String senha;
     protected int id;
 
+    public UsuarioGerenciador() {
+
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }

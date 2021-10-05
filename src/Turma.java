@@ -9,6 +9,22 @@ public class Turma {
     private List<Atividade> atividades;
     private Map<Aluno, List<Double>> notas;
 
+    public Turma() {
+
+    }
+
+    protected void tarefa() {
+
+    }
+
+    protected void matricula() {
+
+    }
+
+    protected void conciliarNota() {
+
+    }
+
     public void setAlunos(List<Aluno> alunos) {
         this.alunos = alunos;
     }

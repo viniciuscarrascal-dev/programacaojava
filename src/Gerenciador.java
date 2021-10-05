@@ -6,6 +6,26 @@ public class Gerenciador {
     private List<Disciplina> disciplinas;
     private List<Turma> turmas;
 
+    public Gerenciador() {
+
+    }
+
+    public Tutor tutor() {
+        return null;
+    }
+
+    public Aluno aluno() {
+        return null;
+    }
+
+    public Disciplina disciplina() {
+        return null;
+    }
+
+    public Turma turma() {
+        return null;
+    }
+
     public void setTurmas(List<Turma> turmas) {
         this.turmas = turmas;
     }
