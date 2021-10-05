@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Tutor {
+public class Tutor extends UsuarioGerenciador {
     private List<Turma> turmas;
 
     public List<Turma> getTurmas() {

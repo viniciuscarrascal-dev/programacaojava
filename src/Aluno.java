@@ -1,2 +1,2 @@
-public class Aluno {
+public class Aluno extends UsuarioGerenciador {
 }
